@@ -1,0 +1,80 @@
+.contendor_Caja {
+  width: 82%;
+  margin-left: 2%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.contenedor_Buscador_Caja {
+  background: #ffff;
+  width: 38%;
+  height: 72%;
+  position: absolute;
+  top: 15%;
+  margin: 2%;
+  box-sizing: border-box;
+  border: 0.5px solid black;
+  box-shadow: 4px 24px 4px rgba(0, 0, 0, 0.25);
+}
+.contendorTablaCaja {
+  background-color: #ffff;
+  position: absolute;
+  width: 58%;
+  height: 82%;
+  left: 41%;
+  top: 10%;
+  box-sizing: border-box;
+  border: 0.5px solid #000000;
+  box-shadow: 4px 24px 4px rgba(0, 0, 0, 0.25);
+}
+
+.inputs_caja {
+  margin: 1%;
+  border: none;
+  border-bottom: 1px solid black;
+  background: none;
+  outline: none;
+}
+
+.contenedo-Imagenes-caja {
+  /* background-color: #000000; */
+  width: 160px;
+  height: 160px;
+}
+.Imagenes {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.diseñoP {
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  height: 48px;
+  width: 17%;
+}
+.diseñoBotonIncremento {
+  border: 1px solid #000000;
+  background: none;
+  height: 50px;
+}
+.cantidadCaja {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+}
+
+.contendorAumentar {
+  display: flex;
+  align-items: center;
+}
+.botonAgregar {
+  background: rgba(0, 146, 255, 0.2);
+  border-radius: 5px;
+  color: #1b8ddf;
+  border: none;
+  height: 25px;
+  width: 180px;
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+}

@@ -1,0 +1,95 @@
+.SurtirProducto-Principal {
+  /*background-color: red;*/
+  height: 90%;
+}
+.SurtirProdcto {
+  font-family: sans-serif;
+  background-color: white;
+  /*margin: 0 auto;*/
+  max-height: 74%;
+  min-height: 100px;
+  overflow-y: auto;
+  overflow-x: none;
+  height: 74%;
+}
+
+.SurtirProducto > div {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.SurtirProdcto > div > input {
+  width: 20%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.btn-eliminar {
+  flex: none;
+  background-color: #f13030;
+  color: white;
+  margin-left: 5%;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 12px;
+}
+
+.btn-agregar {
+  background-color: #51c527;
+  color: white;
+
+  margin-top: 40px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.card-container {
+  margin-left: 4%;
+  width: 90%;
+  padding: 1%;
+  background-color: #5790ff;
+  /* margin-bottom: 1px; */
+  border-bottom: 2px solid white;
+  border-radius: 15px;
+}
+
+.card-container > input {
+  margin-right: 5%;
+}
+.container-btn-surtir {
+  border-top: 2px solid #bdbaba;
+  /*border-top: rgba(0, 0, 0, 0.1);*/
+  display: flex;
+  justify-content: end;
+  width: 90%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.btn-surtir {
+  background: #5790ff;
+  color: white;
+  font-size: 18px;
+  border: none;
+  padding: 11px;
+  cursor: pointer;
+  margin-right: 35px;
+  margin-top: 2%;
+}
+
+.div-titulo {
+  display: flex;
+  /* border-bottom: 2px solid #bdbaba; */
+  /* align-items: center;
+  justify-content: center; */
+  /* margin-left: 10%; */
+}
+.div-titulo > h3 {
+  /* margin-inline: 2%; */
+  margin-left: 13%;
+}

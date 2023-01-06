@@ -1,0 +1,15 @@
+#button-table-productos {
+	width: 80px;
+	box-sizing: border-box;
+	padding: 7px;
+	background: #5790ff;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+	border: none;
+	border-radius: 15px;
+}
+
+#button-table-productos:active {
+	background: #021e73;
+}

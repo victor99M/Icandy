@@ -1,0 +1,22 @@
+.estado_Pendiente,
+.estado_Activo,
+.estado_Cancelado,
+.estado_Entregado {
+	font-weight: bold !important;
+}
+
+.estado_Pendiente {
+	color: rgb(170, 172, 51) !important;
+}
+
+.estado_Activo {
+	color: rgb(70, 32, 238) !important;
+}
+
+.estado_Cancelado {
+	color: rgb(238, 32, 49) !important;
+}
+
+.estado_Entregado {
+	color: rgb(49, 156, 45) !important;
+}

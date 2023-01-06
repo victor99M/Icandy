@@ -1,0 +1,247 @@
+.inicio-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: 5px;
+  margin: 0;
+}
+
+.inicio-filtros {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 150px;
+}
+
+.inicio-filtros p a {
+  color: #000;
+  text-decoration: none;
+}
+
+.inicio-filtros p a:hover {
+  color: #46a;
+  text-decoration: underline;
+}
+
+.inicio-filtros-btn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1em;
+  background: none;
+  border: none;
+  gap: 5px;
+}
+
+.inicio-cards {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  gap: 75px;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.inicio-card-container {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  aspect-ratio: 1 / 1;
+}
+
+.inicio-card {
+  transition: width 1s, height 1s;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  /* border: 1px solid #000000; */
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25), -2px -2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  display: flex;
+  gap: 0;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.inicio-card:hover {
+  height: 350px;
+}
+
+.inicio-card:hover .inicio-card-botones {
+  visibility: visible;
+  opacity: 1;
+}
+
+.inicio-card-link {
+  text-decoration: none;
+  color: #000;
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.inicio-card-new {
+  object-fit: cover;
+  position: absolute;
+  /* top: 0; */
+  left: 0;
+  width: 30%;
+}
+
+.inicio-card-container-image {
+  width: 300px;
+  height: 210px;
+  border-radius: 20px 20px 0 0;
+  border-bottom: 1px solid #000;
+}
+
+.inicio-card-image {
+  height: 100%;
+  width: 98%;
+  object-fit: scale-down;
+}
+
+.inicio-card-detalles {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.card-detalles-nombre {
+  margin: 0;
+  align-self: center;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-align: left;
+}
+
+.card-detalles-nombre span {
+  color: #d0c6c6;
+}
+
+.card-detalles-precio {
+  color: #1aeb2f;
+  font-size: 1.8em;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.inicio-card-botones {
+  padding: 0 5px;
+  display: flex;
+  justify-content: space-between;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 1s, opacity 0.6s linear;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}
+
+.card-botones-disponible {
+  color: #000;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.card-botones-disponible span {
+  color: #1ee0e0;
+  margin: 0;
+}
+
+.card-botones-carrito {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 8%;
+  transition: width 0.6s;
+  cursor: pointer;
+}
+
+.card-cero {
+  color: gray;
+}
+
+.card-botones-carrito:hover {
+  width: 10%;
+}
+
+.card-botones-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.inicio-paginador {
+  display: flex;
+  min-width: 90%;
+  height: 175px;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 2em;
+}
+
+.paginador-container {
+  display: flex;
+  /* border-top: 1px solid #000; */
+  /* border-bottom: 1px solid #000; */
+}
+
+.paginador-pagina {
+  text-decoration: none;
+  color: #000;
+  box-sizing: border-box;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paginador-anterior,
+.paginador-siguiente {
+  color: #a33;
+}
+
+.paginador-pagina-focus {
+  color: #77f;
+  text-decoration: underline;
+}
+
+@media (max-width: 540px) {
+  .inicio-filtros {
+    height: 100px;
+  }
+
+  .inicio-cards {
+    justify-content: center;
+    gap: 50px 0;
+  }
+
+  .inicio-card-botones {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .inicio-card {
+    height: 350px;
+  }
+
+  .inicio-card-container {
+    height: 350px;
+  }
+}

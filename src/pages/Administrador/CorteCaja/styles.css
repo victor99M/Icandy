@@ -1,0 +1,134 @@
+.corteCaja-contenedor {
+  width: 90%;
+  height: 100%;
+  margin-left: 3%;
+  margin-right: 2%;
+
+  /* background-color: aqua; */
+}
+
+.corteCaja-opciones {
+  width: 100%;
+  height: 20%;
+
+  /* background-color: beige; */
+}
+.corteCaja-opciones__fecha {
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  font-size: 80%;
+  /* background-color: #3060bf; */
+}
+.corteCaja-opciones__Inputs {
+  /* background-color: #3060bf; */
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 60%;
+}
+
+.Input_1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.Input_1 input {
+  width: 30%;
+  height: 20px;
+  border: none;
+  border-bottom: 1px solid #0092ff;
+  outline: none;
+}
+
+.Input_1 button {
+  background-color: #0092ff;
+  border: none;
+  color: #ffff;
+  height: 25px;
+}
+.Input_1 button:hover {
+  background-color: #105488;
+}
+
+.Input_2 {
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.Input_2 input {
+  height: 30%;
+  border: none;
+  border-bottom: 1px solid #0092ff;
+  outline: none;
+}
+
+.Input_2 button {
+  background-color: #0092ff;
+  border: none;
+  color: #ffff;
+  height: 50%;
+}
+
+.Input_2 button:hover {
+  background-color: #105488;
+}
+.corteCaja-contenedorTabla {
+  width: 100%;
+  /* background-color: blue; */
+  height: 55%;
+  max-height: 55%;
+  overflow-y: auto;
+  overflow-x: none;
+  margin: 2%;
+}
+
+.Corte-tabla {
+  background-color: white;
+  text-align: left;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.Corte-tabla th,
+td {
+  padding: 15px;
+}
+
+.Corte-tabla thead {
+  color: #3060bf;
+  /* border-bottom: solid 5px #71abdd; */
+}
+
+.Corte-tabla tr:nth-child(even) {
+  background-color: #5790ff;
+}
+
+/* .Corte-tabla tr:hover td {
+  background-color: #71abdd;
+} */
+
+.Corte-tabla-cierreCaja {
+  /* background-color: bisque; */
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Corte-tabla-cierreCaja button {
+  background-color: #0092ff;
+  color: white;
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+}
+
+.Corte-tabla-cierreCaja button:hover {
+  background-color: #105488;
+}
