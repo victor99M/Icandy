@@ -5,8 +5,8 @@
 /.pnp
 .pnp.js
 
-#assets
-assets
+# #assets
+# assets
 
 # testing
 /coverage
